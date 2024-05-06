@@ -1,0 +1,67 @@
+.navegacion{
+    background-color: $color-principal1 !important;
+    .logo {
+        font-family: $fuente-logo;
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 20px;
+    }
+    .link{
+        padding-right: 20px;
+    }
+    .navbar-expand-md, .navbar-collapse{
+        justify-content: space-around;
+    }
+}
+
+.navegacion-hombres{
+    background-color: $color-hombre1 !important;
+    .logo {
+        font-family: $fuente-logo;
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 20px;
+    }
+    .link{
+        padding-right: 20px;
+    }
+    .navbar-expand-md, .navbar-collapse{
+        justify-content: space-around;
+    }
+}
+
+.navegacion-mujeres{
+    background-color: $color-mujer1 !important;
+    .logo {
+        font-family: $fuente-logo;
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 20px;
+    }
+    .link{
+        padding-right: 20px;
+    }
+    .navbar-expand-md, .navbar-collapse{
+        justify-content: space-around;
+    }
+}
+
+.navegacion-niños{
+    background-color: $color-niños1 !important;
+    .logo {
+        font-family: $fuente-logo;
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 20px;
+    }
+    .link{
+        padding-right: 20px;
+    }
+    .navbar-expand-md, .navbar-collapse{
+        justify-content: space-around;
+    }
+}
