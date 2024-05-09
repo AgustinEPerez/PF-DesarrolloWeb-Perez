@@ -5,15 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mode Indumentaria</title>
+    <meta name="description" content="En MODE compra ropa, calzado y accesorios para Hombre, Mujeres y Niños de forma online. Aprovecha las ofertas del dia, los envios a toda la Argentina y las cuotas sin interes." >
+    <meta name="keywords" content="MODE, ropa, calzado, accesorios, Hombre, Mujer, Niños, online, ofertas, envios, Argentina, cuotas" >
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-md bg-body-tertiary nav-underline navegacion">
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="./index.html">Mode</a>
+            <a class="navbar-brand logo animate__animated animate__flip" href="./index.html">Mode</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,6 +46,7 @@
             </div>
         </div>
     </nav>
+    <!-- Main index -->
     <main class="main-content">
         <div class="main-container">
             <h2 class="presentacion">Bienvenido a Mode!</h2>
@@ -54,31 +62,49 @@
             <p class="presentacion">¡Gracias por elegirnos! Estamos emocionados de ser parte de tu viaje de moda.</p>
         </div>
 
-        <div class="presentacion2">
-            <h1>Te podria interesar</h1>
-            <section class="img-presentacion2">
-                <div class="img1">
-                    <a href="./pages/hombres.html">
-                        <img src="https://th.bing.com/th/id/R.5d2e39134dbc01bbc87b8014333df301?rik=yMk7GPHbRobgnQ&pid=ImgRaw&r=0" alt="Hombre">
-                    </a>
-                    <h4>HOMBRES</h4>
+        <h1 class="subtitulo">Te podria interesar</h1>
+        
+        <section class="presentacion-ropa">
+            <div class="div-img">
+                <a href="#">
+                    <img src="https://cdn-0.somosmamas.com.ar/wp-content/uploads/2021/02/shorts-para-hombres-1-788x1024.jpg" alt="short-hombre">
+                </a>
+                <div class="descripcion">
+                    <h4>Short de hombre</h4>
+                    <p>$3.499</p>
                 </div>
-                <div class="img2">
-                    <a href="./pages/mujeres.html">
-                        <img src="https://th.bing.com/th/id/OIP.qKW60OcFy6RZI91kEHXT7QHaJ3?rs=1&pid=ImgDetMain" alt="Mujer">
-                    </a>
-                    <h4>MUJERES</h4>
+            </div>
+            <div class="div-img">
+                <a href="#">
+                    <img src="https://petrolizadojeans.com/wp-content/uploads/2021/03/Jeans-colombianos-Jeans-para-dama-al-por-mayor-Petrolizadojeans-Jeans-REF-P02-649-frente-color-azul-claro.jpg" alt="jean-mujer">
+                </a>
+                <div class="descripcion">
+                    <h4>Jean de mujer</h4>
+                    <p>$5.999</p>
                 </div>
-                <div class="img3">
-                    <a href="./pages/niños.html">
-                        <img src="https://d368r8jqz0fwvm.cloudfront.net/29125-product_list_md/buzo-de-ninos-adam.jpg" alt="Niños">
-                    </a>
-                    <h4>NIÑOS</h4>
+            </div>
+            <div class="div-img">
+                <a href="#">
+                    <img src="https://static.dafiti.cl/p/pillin-1335-2558611-1-catalog-new.jpg" alt="calzado-niña">
+                </a>
+                <div class="descripcion">
+                    <h4>Zapatillas de niña</h4>
+                    <p>$2.450</p>
                 </div>
-            </section>
-            <h2><a href="./pages/contacto.html">Contacto</a></h2>
-        </div>
+            </div>
+            <div class="div-img">
+                <a href="#">
+                    <img src="https://static.dafiti.cl/p/adidas-performance-2691-8294201-1-zoom.jpg" alt="zapatillas-deportivas">
+                </a>
+                <div class="descripcion">
+                    <h4>Zapatillas deportivas</h4>
+                    <p>$4.345</p>
+                </div>
+            </div>
+        </section>
+
     </main>
+    <!-- Footer -->
     <footer class="footer">
         <p>Para defensa del consumidor/a. Para reclamos, <a
                 href="https://autogestion.produccion.gob.ar/consumidores">Ingrese aqui</a> / <a href="">Terminos y

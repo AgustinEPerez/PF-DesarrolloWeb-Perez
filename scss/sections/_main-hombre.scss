@@ -1,12 +1,16 @@
 .ropa-hombre{
     background-color: $color-hombre2;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     display: grid;
     div {
         width: 30%;
         border-radius: 15px;
         margin: 5px auto;
+        &:hover{
+            transform: scale(1.05);
+            transition: 2s;
+        }
     }
     h4 {
         text-align: center;
