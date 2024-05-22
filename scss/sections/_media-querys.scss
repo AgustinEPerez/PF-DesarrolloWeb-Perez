@@ -13,17 +13,125 @@
             }
         }
     }
-    .ropa {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        div{
-            width: 50%;
+    .ropa-hombre{
+        .hombre1{
+            .img1{
+                width: 35%;
+                height: 250px;
+            }
+            .texto1{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
         }
-        img {
-            height: 225px
+        .hombre2{
+            .img2{
+                width: 35%;
+                height: 280px;
+            }
+            .texto2{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre3{
+            .img3{
+                width: 35%;
+                height: 250px;
+            }
+            .texto3{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre4{
+            .img4{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto4{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre5{
+            .img5{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto5{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre6{
+            .img6{
+                width: 197.5px;
+                height: 230px;
+            }
+            .texto6{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre7{
+            .img7{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto7{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre8{
+            .img8{
+                width: 197.5px;
+            }
+            .texto8{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
         }
     }
     .main-form {
@@ -44,15 +152,35 @@
             }
         }
     }
-    .footer {
-        font-size: 12px;
+    .footer-distributed{
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        gap: 0 15px;
+        .footer-center{
+            width: 350px;
+            p{
+                font-size: 11px;
+            }
+        }
+        .footer-right{
+            .footer-company-about{
+                font-size: 11px;
+                span{
+                    font-size: 13.5px;
+                }
+            }
+        }
     }
 }
 
 @media (min-width: 927px){
     nav {
+        .logo{
+            font-size: 35px !important;
+        }
         .nav-link {
-            font-size: 17px;
+            font-size: 20px;
         }
     }
     .presentacion-ropa {
@@ -68,29 +196,177 @@
             }
         }
     }
-    .ropa {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        div{
-            width: 60%;
+    .ropa-hombre{
+        .hombre1{
+            .img1{
+                width: 35%;
+                height: 250px;
+            }
+            .texto1{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
         }
-        img {
-            height: 250px
+        .hombre2{
+            .img2{
+                width: 35%;
+                height: 280px;
+            }
+            .texto2{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
         }
-        h4 {
-            padding-bottom: 4px;
+        .hombre3{
+            .img3{
+                width: 35%;
+                height: 250px;
+            }
+            .texto3{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre4{
+            .img4{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto4{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre5{
+            .img5{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto5{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre6{
+            .img6{
+                width: 197.5px;
+                height: 230px;
+            }
+            .texto6{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre7{
+            .img7{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto7{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .hombre8{
+            .img8{
+                width: 197.5px;
+            }
+            .texto8{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
         }
     }
-    .footer {
-        font-size: 13.5px;
+    .container{
+        width: 400px !important;
+        height: 450px !important;
+        h2{
+            font-size: 35px !important;
+            padding-top: 25px;
+        }
+        form{
+            align-items: center;
+            input{
+                font-size: 18px !important;
+            }
+            label{
+                font-size: 22.5px !important;
+                padding: 0.4em !important;
+            }
+            button{
+                font-size: 25px !important;
+            }
+        }
+    }
+    .footer-distributed{
+        .footer-left{
+            .footer-links{
+                a{
+                    font-size: 15px;
+                }
+            }
+            .footer-company-name{
+                font-size: 15px;
+            }
+        }
+        .footer-center{
+            p{
+                font-size: 15px;
+            }
+        }
+        .footer-right{
+            .footer-company-about{
+                font-size: 13.5px;
+            }
+        }
     }
 }
 
 @media (min-width: 1144px){
     nav {
+        .logo{
+            font-size: 45px !important;
+        }
         .nav-link {
             font-size: 22.5px;
         }
@@ -116,24 +392,169 @@
             }
         }
     }
-    .ropa {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: start;
-        justify-items: center;
-        justify-content: center;
-        div{
-            width: 70%;
+    .ropa-hombre{
+        .hombre1{
+            .img1{
+                width: 50%;
+                height: 300px;
+            }
+            .texto1{
+                h4{
+                    font-size: 30px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
         }
-        img {
-            height: 290px
+        .hombre2{
+            .img2{
+                width: 45%;
+                height: 300px;
+            }
+            .texto2{
+                h4{
+                    font-size: 30px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
         }
-        h4 {
-            font-size: 20px;
-            padding-bottom: 8px;
+        .hombre3{
+            .img3{
+                width: 40%;
+                height: 300px;
+            }
+            .texto3{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .hombre4{
+            .img4{
+                width: 235px;
+                height: 245px;
+            }
+            .texto4{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .hombre5{
+            .img5{
+                width: 46.5%;
+                height: 245px;
+            }
+            .texto5{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .hombre6{
+            .img6{
+                width: 35%;
+                height: 260px;
+            }
+            .texto6{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .hombre7{
+            .img7{
+                width: 35%;
+                height: 233px;
+            }
+            .texto7{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .hombre8{
+            .img8{
+                width: 35%;
+                height: 340px;
+            }
+            .texto8{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
         }
     }
-    .footer {
-        font-size: 17px;
+    .container{
+        width: 500px !important;
+        height: 550px !important;
+        h2{
+            font-size: 40px !important;
+            padding-top: 25px;
+        }
+        form{
+            align-items: center;
+            input{
+                font-size: 20px !important;
+            }
+            label{
+                font-size: 25px !important;
+                padding: 0.4em !important;
+            }
+            button{
+                font-size: 27.5px !important;
+            }
+        }
+    }
+    .footer-distributed{
+        .footer-left{
+            .footer-links{
+                a{
+                    font-size: 18px;
+                }
+            }
+            .footer-company-name{
+                font-size: 17px;
+            }
+        }
+        .footer-center{
+            p{
+                font-size: 18px;
+            }
+        }
+        .footer-right{
+            .footer-company-about{
+                font-size: 15.5px;
+            }
+        }
     }
 }

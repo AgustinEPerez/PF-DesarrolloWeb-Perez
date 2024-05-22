@@ -1,47 +1,145 @@
-.footer{
+.footer-distributed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: $color-principal1;
-    padding: 30px;
-    font-size: 12px;
-    text-align: center;
-    a{
-        color: $color-texto1;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-}
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: $fuente-principal;
+    padding: 50px 50px 60px 50px;
 
-.footer-hombres{
-    background-color: $color-hombre1;
-    padding: 30px;
-    font-size: 12px;
-    text-align: center;
-    a{
-        color: $color-texto1;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-}
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
 
-.footer-mujeres{
-    background-color: $color-mujer1;
-    padding: 30px;
-    font-size: 12px;
-    text-align: center;
-    a{
-        color: $color-texto1;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-}
+        h3 {
+            color: $color-texto1;
+            font-size: 36px;
+            font-weight: normal;
+            font-family: $fuente-logo;
+            margin: 0;
+        }
 
-.footer-niños{
-    background-color: $color-niños1;
-    padding: 30px;
-    font-size: 12px;
-    text-align: center;
-    a{
-        color: $color-texto1;
-        text-decoration: none;
-        font-weight: bolder;
+        .footer-links {
+            color: $color-texto1;
+            margin: 20px 0 12px;
+
+            a {
+                display: inline-block;
+                line-height: 1.8;
+                text-decoration: none;
+                color: inherit;
+                font-size: 12.5px;
+
+                &:hover {
+                    color: $color-principal4;
+                }
+            }
+        }
+
+        .footer-company-name {
+            color: $color-texto1;
+            font-size: 12.5px;
+            font-weight: normal;
+            margin: 0;
+        }
+    }
+
+
+    .footer-center {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 15px auto;
+        width: 300px;
+
+        svg {
+            background-color: $color-texto3;
+            color: $color-texto2;
+            font-size: 25px;
+            width: 38px;
+            height: 38px;
+            padding: 4.5px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 42px;
+            margin: 10px 15px;
+            vertical-align: middle;
+
+        }
+
+        p {
+            display: inline-block;
+            color: $color-texto1;
+            vertical-align: middle;
+            margin: 0;
+            font-size: 15px;
+
+            a {
+                color: $color-texto1;
+                text-decoration: none;
+
+                &:hover {
+                    color: $color-principal4
+                }
+            }
+        }
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+
+        .footer-company-about {
+            line-height: 20px;
+            color: $color-texto1;
+            text-align: justify;
+            font-size: 13px;
+            font-weight: normal;
+            margin: 0;
+
+            span {
+                display: block;
+                color: $color-texto1;
+                text-align: center;
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+        }
+
+        .footer-icons {
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 15px;
+
+            a {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+                background-color: $color-texto3;
+                border-radius: 2px;
+                font-size: 20px;
+                color: $color-texto2;
+                text-align: center;
+                line-height: 35px;
+                margin-right: 3px;
+                margin-bottom: 5px;
+
+                &:hover {
+                    background-color: $color-principal4;
+                }
+            }
+        }
     }
 }
