@@ -2,28 +2,216 @@
     background-color: $color-principal2;
     padding-top: 35px;
     padding-bottom: 35px;
-    display: grid;
-    div {
-        width: 30%;
-        border-radius: 15px;
-        margin: 5px auto;
-        &:hover{
-            transform: scale(1.05);
-            transition: 2s;
+    .mujer1{
+        display: flex;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img1{
+            width: 50%;
+            height: 60%;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto1{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 12.5px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
         }
     }
-    h4 {
-        text-align: center;
-        background-color: $color-principal1;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        font-size: 15PX;
+    .mujer2{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img2{
+            width: 50%;
+            height: 60%;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto2{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 14.5px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
+        }
     }
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: 15px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+    .mujer3{
+        display: flex;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img3{
+            width: 50%;
+            height: 60%;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto3{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 14.5px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
+        }
+    }
+    .mujer4{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img4{
+            width: 50%;
+            height: 60%;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto4{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 10.5px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
+        }
+    }
+    .mujer5{
+        display: flex;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img5{
+            width: 50%;
+            height: 60%;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto5{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 11px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
+        }
+    }
+    .mujer6{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img6{
+            width: 50%;
+            height: 60%;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto6{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 9.5px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
+        }
+    }
+    .mujer7{
+        display: flex;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img7{
+            width: 50%;
+            height: 225px;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto7{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 11px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
+        }
+    }
+    .mujer8{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 10px;
+        border-bottom: 3px solid $color-principal4;
+        .img8{
+            width: 50%;
+            height: 60%;
+            padding: 10px 10px 10px 15px;
+        }
+        .texto8{
+                font-family: $fuente-principal;
+                padding-right: 10px;
+                h4{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $color-principal5;
+                }
+                p{
+                    font-size: 13.5px;
+                    a{
+                        text-decoration: none;
+                        color: $color-principal4;
+                    }
+                }
+        }
     }
 }

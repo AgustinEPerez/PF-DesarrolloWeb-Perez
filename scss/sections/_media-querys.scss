@@ -134,6 +134,141 @@
             }
         }
     }
+    .ropa-mujeres{
+        .mujer1{
+            .img1{
+                width: 45%;
+                height: 250px;
+            }
+            .texto1{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer2{
+            .img2{
+                width: 35%;
+                height: 250px;
+            }
+            .texto2{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer3{
+            .img3{
+                width: 35%;
+                height: 250px;
+            }
+            .texto3{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer4{
+            .img4{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto4{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer5{
+            .img5{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto5{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer6{
+            .img6{
+                width: 197.5px;
+                height: 230px;
+            }
+            .texto6{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer7{
+            .img7{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto7{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer8{
+            .img8{
+                width: 197.5px;
+            }
+            .texto8{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .ropa-niños {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        div{
+            width: 50%;
+            margin-bottom: 15px;
+        }
+        img {
+            height: 225px
+        }
+    }
     .main-form {
         display: flex;
         flex-direction: row;
@@ -315,6 +450,144 @@
                     font-size: 18px;
                 }
             }
+        }
+    }
+    .ropa-mujeres{  
+        .mujer1{
+            .img1{
+                width: 35%;
+                height: 250px;
+            }
+            .texto1{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer2{
+            .img2{
+                width: 35%;
+                height: 280px;
+            }
+            .texto2{
+                h4{
+                    font-size: 20px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer3{
+            .img3{
+                width: 35%;
+                height: 250px;
+            }
+            .texto3{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer4{
+            .img4{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto4{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer5{
+            .img5{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto5{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer6{
+            .img6{
+                width: 197.5px;
+                height: 230px;
+            }
+            .texto6{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer7{
+            .img7{
+                width: 197.5px;
+                height: 215px;
+            }
+            .texto7{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mujer8{
+            .img8{
+                width: 197.5px;
+            }
+            .texto8{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .ropa-niños {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        div{
+            width: 60%;
+            margin-bottom: 20px;
+        }
+        img {
+            height: 250px
+        }
+        h4 {
+            padding-bottom: 4px;
         }
     }
     .container{
@@ -514,6 +787,152 @@
             }
         }
     }
+    .ropa-mujeres{
+        .mujer1{
+            .img1{
+                width: 50%;
+                height: 300px;
+            }
+            .texto1{
+                h4{
+                    font-size: 30px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .mujer2{
+            .img2{
+                width: 45%;
+                height: 300px;
+            }
+            .texto2{
+                h4{
+                    font-size: 30px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .mujer3{
+            .img3{
+                width: 40%;
+                height: 300px;
+            }
+            .texto3{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .mujer4{
+            .img4{
+                width: 235px;
+                height: 245px;
+            }
+            .texto4{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .mujer5{
+            .img5{
+                width: 46.5%;
+                height: 245px;
+            }
+            .texto5{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .mujer6{
+            .img6{
+                width: 35%;
+                height: 260px;
+            }
+            .texto6{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .mujer7{
+            .img7{
+                width: 35%;
+                height: 233px;
+            }
+            .texto7{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+        .mujer8{
+            .img8{
+                width: 25%;
+                height: 280px;
+            }
+            .texto8{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 22.5px;
+                }
+            }
+        }
+    }
+    .ropa-niños {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: start;
+        justify-items: center;
+        justify-content: center;
+        padding: 50px 10px;
+        .ropa1{
+            h4{
+                font-size: 19px;
+            }
+        }
+        div{
+            width: 70%;
+            margin-bottom: 30px;
+        }
+        img {
+            height: 290px
+        }
+        h4 {
+            font-size: 20px;
+            padding-bottom: 8px;
+        }
+    }
     .container{
         width: 500px !important;
         height: 550px !important;
@@ -554,6 +973,254 @@
         .footer-right{
             .footer-company-about{
                 font-size: 15.5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px){
+    .ropa-hombre{
+        .hombre1{
+            .img1{
+                width: 50%;
+                height: 350px;
+            }
+            .texto1{
+                h4{
+                    font-size: 40px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .hombre2{
+            .img2{
+                width: 39.5%;
+                height: 350px;
+            }
+            .texto2{
+                h4{
+                    font-size: 40px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .hombre3{
+            .img3{
+                width: 36%;
+                height: 350px;
+            }
+            .texto3{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .hombre4{
+            .img4{
+                width: 19.5%;
+                height: 300px;
+            }
+            .texto4{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .hombre5{
+            .img5{
+                width: 40%;
+                height: 300px;
+            }
+            .texto5{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .hombre6{
+            .img6{
+                width: 54%;
+                height: 300px;
+            }
+            .texto6{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .hombre7{
+            .img7{
+                width: 19.4%;
+                height: 300px;
+            }
+            .texto7{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .hombre8{
+            .img8{
+                width: 39%;
+                height: 300px;
+            }
+            .texto8{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+    .ropa-mujeres{
+        padding: 30px 30px;
+        .mujer1{
+            .img1{
+                width: 50%;
+                height: 350px;
+            }
+            .texto1{
+                h4{
+                    font-size: 40px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .mujer2{
+            .img2{
+                width: 39.5%;
+                height: 350px;
+            }
+            .texto2{
+                h4{
+                    font-size: 40px;
+                }
+                p{  
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .mujer3{
+            .img3{
+                width: 36%;
+                height: 350px;
+            }
+            .texto3{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .mujer4{
+            .img4{
+                width: 19.5%;
+                height: 300px;
+            }
+            .texto4{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .mujer5{
+            .img5{
+                width: 19.5%;
+                height: 300px;
+            }
+            .texto5{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .mujer6{
+            .img6{
+                width: 35%;
+                height: 300px;
+            }
+            .texto6{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .mujer7{
+            .img7{
+                width: 19.4%;
+                height: 300px;
+            }
+            .texto7{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .mujer8{
+            .img8{
+                width: 39%;
+                height: 300px;
+            }
+            .texto8{
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 27px;
+                }
             }
         }
     }

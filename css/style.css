@@ -125,6 +125,9 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre1 .texto1 p {
         font-size: 12.5px; }
+        .ropa-hombre .hombre1 .texto1 p a {
+          text-decoration: none;
+          color: #aae071; }
   .ropa-hombre .hombre2 {
     display: flex;
     margin: 0 10px;
@@ -142,6 +145,9 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre2 .texto2 p {
         font-size: 14.5px; }
+        .ropa-hombre .hombre2 .texto2 p a {
+          text-decoration: none;
+          color: #aae071; }
   .ropa-hombre .hombre3 {
     display: flex;
     margin: 0 10px;
@@ -159,6 +165,9 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre3 .texto3 p {
         font-size: 14.5px; }
+        .ropa-hombre .hombre3 .texto3 p a {
+          text-decoration: none;
+          color: #aae071; }
   .ropa-hombre .hombre4 {
     display: flex;
     margin: 0 10px;
@@ -176,6 +185,9 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre4 .texto4 p {
         font-size: 11.8px; }
+        .ropa-hombre .hombre4 .texto4 p a {
+          text-decoration: none;
+          color: #aae071; }
   .ropa-hombre .hombre5 {
     display: flex;
     margin: 0 10px;
@@ -193,6 +205,9 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre5 .texto5 p {
         font-size: 12.5px; }
+        .ropa-hombre .hombre5 .texto5 p a {
+          text-decoration: none;
+          color: #aae071; }
   .ropa-hombre .hombre6 {
     display: flex;
     margin: 0 10px;
@@ -210,6 +225,9 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre6 .texto6 p {
         font-size: 11.2px; }
+        .ropa-hombre .hombre6 .texto6 p a {
+          text-decoration: none;
+          color: #aae071; }
   .ropa-hombre .hombre7 {
     display: flex;
     margin: 0 10px;
@@ -227,6 +245,9 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre7 .texto7 p {
         font-size: 13.5px; }
+        .ropa-hombre .hombre7 .texto7 p a {
+          text-decoration: none;
+          color: #aae071; }
   .ropa-hombre .hombre8 {
     display: flex;
     margin: 0 10px;
@@ -244,31 +265,178 @@
         border-bottom: 2px solid #000000; }
       .ropa-hombre .hombre8 .texto8 p {
         font-size: 14.5px; }
+        .ropa-hombre .hombre8 .texto8 p a {
+          text-decoration: none;
+          color: #aae071; }
 
 .ropa-mujeres {
   background-color: #fceee9;
   padding-top: 35px;
-  padding-bottom: 35px;
-  display: grid; }
-  .ropa-mujeres div {
-    width: 30%;
-    border-radius: 15px;
-    margin: 5px auto; }
-    .ropa-mujeres div:hover {
-      transform: scale(1.05);
-      transition: 2s; }
-  .ropa-mujeres h4 {
-    text-align: center;
-    background-color: #a3b899;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    font-size: 15PX; }
-  .ropa-mujeres img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0; }
+  padding-bottom: 35px; }
+  .ropa-mujeres .mujer1 {
+    display: flex;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer1 .img1 {
+      width: 50%;
+      height: 60%;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer1 .texto1 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer1 .texto1 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer1 .texto1 p {
+        font-size: 12.5px; }
+        .ropa-mujeres .mujer1 .texto1 p a {
+          text-decoration: none;
+          color: #aae071; }
+  .ropa-mujeres .mujer2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer2 .img2 {
+      width: 50%;
+      height: 60%;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer2 .texto2 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer2 .texto2 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer2 .texto2 p {
+        font-size: 14.5px; }
+        .ropa-mujeres .mujer2 .texto2 p a {
+          text-decoration: none;
+          color: #aae071; }
+  .ropa-mujeres .mujer3 {
+    display: flex;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer3 .img3 {
+      width: 50%;
+      height: 60%;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer3 .texto3 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer3 .texto3 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer3 .texto3 p {
+        font-size: 14.5px; }
+        .ropa-mujeres .mujer3 .texto3 p a {
+          text-decoration: none;
+          color: #aae071; }
+  .ropa-mujeres .mujer4 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer4 .img4 {
+      width: 50%;
+      height: 60%;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer4 .texto4 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer4 .texto4 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer4 .texto4 p {
+        font-size: 10.5px; }
+        .ropa-mujeres .mujer4 .texto4 p a {
+          text-decoration: none;
+          color: #aae071; }
+  .ropa-mujeres .mujer5 {
+    display: flex;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer5 .img5 {
+      width: 50%;
+      height: 60%;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer5 .texto5 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer5 .texto5 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer5 .texto5 p {
+        font-size: 11px; }
+        .ropa-mujeres .mujer5 .texto5 p a {
+          text-decoration: none;
+          color: #aae071; }
+  .ropa-mujeres .mujer6 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer6 .img6 {
+      width: 50%;
+      height: 60%;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer6 .texto6 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer6 .texto6 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer6 .texto6 p {
+        font-size: 9.5px; }
+        .ropa-mujeres .mujer6 .texto6 p a {
+          text-decoration: none;
+          color: #aae071; }
+  .ropa-mujeres .mujer7 {
+    display: flex;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer7 .img7 {
+      width: 50%;
+      height: 225px;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer7 .texto7 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer7 .texto7 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer7 .texto7 p {
+        font-size: 11px; }
+        .ropa-mujeres .mujer7 .texto7 p a {
+          text-decoration: none;
+          color: #aae071; }
+  .ropa-mujeres .mujer8 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10px;
+    border-bottom: 3px solid #aae071; }
+    .ropa-mujeres .mujer8 .img8 {
+      width: 50%;
+      height: 60%;
+      padding: 10px 10px 10px 15px; }
+    .ropa-mujeres .mujer8 .texto8 {
+      font-family: "Poppins", sans-serif;
+      padding-right: 10px; }
+      .ropa-mujeres .mujer8 .texto8 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+        border-bottom: 2px solid #000000; }
+      .ropa-mujeres .mujer8 .texto8 p {
+        font-size: 13.5px; }
+        .ropa-mujeres .mujer8 .texto8 p a {
+          text-decoration: none;
+          color: #aae071; }
 
 .ropa-niños {
   background-color: #fceee9;
@@ -280,7 +448,7 @@
     border-radius: 15px;
     margin: 5px auto; }
     .ropa-niños div:hover {
-      transform: scale(1.05);
+      transform: scale(1.01);
       transition: 2s; }
   .ropa-niños h4 {
     text-align: center;
@@ -581,6 +749,80 @@
   .ropa-hombre .hombre8 .texto8 p {
     padding-top: 10px;
     font-size: 18px; }
+  .ropa-mujeres .mujer1 .img1 {
+    width: 45%;
+    height: 250px; }
+  .ropa-mujeres .mujer1 .texto1 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer1 .texto1 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer2 .img2 {
+    width: 35%;
+    height: 250px; }
+  .ropa-mujeres .mujer2 .texto2 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer2 .texto2 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer3 .img3 {
+    width: 35%;
+    height: 250px; }
+  .ropa-mujeres .mujer3 .texto3 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer3 .texto3 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer4 .img4 {
+    width: 197.5px;
+    height: 215px; }
+  .ropa-mujeres .mujer4 .texto4 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer4 .texto4 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer5 .img5 {
+    width: 197.5px;
+    height: 215px; }
+  .ropa-mujeres .mujer5 .texto5 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer5 .texto5 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer6 .img6 {
+    width: 197.5px;
+    height: 230px; }
+  .ropa-mujeres .mujer6 .texto6 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer6 .texto6 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer7 .img7 {
+    width: 197.5px;
+    height: 215px; }
+  .ropa-mujeres .mujer7 .texto7 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer7 .texto7 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer8 .img8 {
+    width: 197.5px; }
+  .ropa-mujeres .mujer8 .texto8 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer8 .texto8 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-niños {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center; }
+    .ropa-niños div {
+      width: 50%;
+      margin-bottom: 15px; }
+    .ropa-niños img {
+      height: 225px; }
   .main-form {
     display: flex;
     flex-direction: row;
@@ -684,6 +926,82 @@
   .ropa-hombre .hombre8 .texto8 p {
     padding-top: 10px;
     font-size: 18px; }
+  .ropa-mujeres .mujer1 .img1 {
+    width: 35%;
+    height: 250px; }
+  .ropa-mujeres .mujer1 .texto1 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer1 .texto1 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer2 .img2 {
+    width: 35%;
+    height: 280px; }
+  .ropa-mujeres .mujer2 .texto2 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer2 .texto2 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer3 .img3 {
+    width: 35%;
+    height: 250px; }
+  .ropa-mujeres .mujer3 .texto3 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer3 .texto3 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer4 .img4 {
+    width: 197.5px;
+    height: 215px; }
+  .ropa-mujeres .mujer4 .texto4 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer4 .texto4 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer5 .img5 {
+    width: 197.5px;
+    height: 215px; }
+  .ropa-mujeres .mujer5 .texto5 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer5 .texto5 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer6 .img6 {
+    width: 197.5px;
+    height: 230px; }
+  .ropa-mujeres .mujer6 .texto6 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer6 .texto6 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer7 .img7 {
+    width: 197.5px;
+    height: 215px; }
+  .ropa-mujeres .mujer7 .texto7 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer7 .texto7 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-mujeres .mujer8 .img8 {
+    width: 197.5px; }
+  .ropa-mujeres .mujer8 .texto8 h4 {
+    font-size: 20px; }
+  .ropa-mujeres .mujer8 .texto8 p {
+    padding-top: 10px;
+    font-size: 18px; }
+  .ropa-niños {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center; }
+    .ropa-niños div {
+      width: 60%;
+      margin-bottom: 20px; }
+    .ropa-niños img {
+      height: 250px; }
+    .ropa-niños h4 {
+      padding-bottom: 4px; }
   .container {
     width: 400px !important;
     height: 450px !important; }
@@ -789,6 +1107,87 @@
   .ropa-hombre .hombre8 .texto8 p {
     padding-top: 10px;
     font-size: 22.5px; }
+  .ropa-mujeres .mujer1 .img1 {
+    width: 50%;
+    height: 300px; }
+  .ropa-mujeres .mujer1 .texto1 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer1 .texto1 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-mujeres .mujer2 .img2 {
+    width: 45%;
+    height: 300px; }
+  .ropa-mujeres .mujer2 .texto2 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer2 .texto2 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-mujeres .mujer3 .img3 {
+    width: 40%;
+    height: 300px; }
+  .ropa-mujeres .mujer3 .texto3 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer3 .texto3 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-mujeres .mujer4 .img4 {
+    width: 235px;
+    height: 245px; }
+  .ropa-mujeres .mujer4 .texto4 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer4 .texto4 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-mujeres .mujer5 .img5 {
+    width: 46.5%;
+    height: 245px; }
+  .ropa-mujeres .mujer5 .texto5 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer5 .texto5 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-mujeres .mujer6 .img6 {
+    width: 35%;
+    height: 260px; }
+  .ropa-mujeres .mujer6 .texto6 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer6 .texto6 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-mujeres .mujer7 .img7 {
+    width: 35%;
+    height: 233px; }
+  .ropa-mujeres .mujer7 .texto7 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer7 .texto7 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-mujeres .mujer8 .img8 {
+    width: 25%;
+    height: 280px; }
+  .ropa-mujeres .mujer8 .texto8 h4 {
+    font-size: 30px; }
+  .ropa-mujeres .mujer8 .texto8 p {
+    padding-top: 10px;
+    font-size: 22.5px; }
+  .ropa-niños {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    justify-items: center;
+    justify-content: center;
+    padding: 50px 10px; }
+    .ropa-niños .ropa1 h4 {
+      font-size: 19px; }
+    .ropa-niños div {
+      width: 70%;
+      margin-bottom: 30px; }
+    .ropa-niños img {
+      height: 290px; }
+    .ropa-niños h4 {
+      font-size: 20px;
+      padding-bottom: 8px; }
   .container {
     width: 500px !important;
     height: 550px !important; }
@@ -812,3 +1211,135 @@
     font-size: 18px; }
   .footer-distributed .footer-right .footer-company-about {
     font-size: 15.5px; } }
+
+@media (min-width: 1440px) {
+  .ropa-hombre .hombre1 .img1 {
+    width: 50%;
+    height: 350px; }
+  .ropa-hombre .hombre1 .texto1 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre1 .texto1 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-hombre .hombre2 .img2 {
+    width: 39.5%;
+    height: 350px; }
+  .ropa-hombre .hombre2 .texto2 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre2 .texto2 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-hombre .hombre3 .img3 {
+    width: 36%;
+    height: 350px; }
+  .ropa-hombre .hombre3 .texto3 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre3 .texto3 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-hombre .hombre4 .img4 {
+    width: 19.5%;
+    height: 300px; }
+  .ropa-hombre .hombre4 .texto4 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre4 .texto4 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-hombre .hombre5 .img5 {
+    width: 40%;
+    height: 300px; }
+  .ropa-hombre .hombre5 .texto5 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre5 .texto5 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-hombre .hombre6 .img6 {
+    width: 54%;
+    height: 300px; }
+  .ropa-hombre .hombre6 .texto6 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre6 .texto6 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-hombre .hombre7 .img7 {
+    width: 19.4%;
+    height: 300px; }
+  .ropa-hombre .hombre7 .texto7 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre7 .texto7 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-hombre .hombre8 .img8 {
+    width: 39%;
+    height: 300px; }
+  .ropa-hombre .hombre8 .texto8 h4 {
+    font-size: 40px; }
+  .ropa-hombre .hombre8 .texto8 p {
+    padding-top: 10px;
+    font-size: 27px; }
+  .ropa-mujeres {
+    padding: 30px 30px; }
+    .ropa-mujeres .mujer1 .img1 {
+      width: 50%;
+      height: 350px; }
+    .ropa-mujeres .mujer1 .texto1 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer1 .texto1 p {
+      padding-top: 10px;
+      font-size: 27px; }
+    .ropa-mujeres .mujer2 .img2 {
+      width: 39.5%;
+      height: 350px; }
+    .ropa-mujeres .mujer2 .texto2 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer2 .texto2 p {
+      padding-top: 10px;
+      font-size: 27px; }
+    .ropa-mujeres .mujer3 .img3 {
+      width: 36%;
+      height: 350px; }
+    .ropa-mujeres .mujer3 .texto3 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer3 .texto3 p {
+      padding-top: 10px;
+      font-size: 27px; }
+    .ropa-mujeres .mujer4 .img4 {
+      width: 19.5%;
+      height: 300px; }
+    .ropa-mujeres .mujer4 .texto4 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer4 .texto4 p {
+      padding-top: 10px;
+      font-size: 27px; }
+    .ropa-mujeres .mujer5 .img5 {
+      width: 19.5%;
+      height: 300px; }
+    .ropa-mujeres .mujer5 .texto5 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer5 .texto5 p {
+      padding-top: 10px;
+      font-size: 27px; }
+    .ropa-mujeres .mujer6 .img6 {
+      width: 35%;
+      height: 300px; }
+    .ropa-mujeres .mujer6 .texto6 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer6 .texto6 p {
+      padding-top: 10px;
+      font-size: 27px; }
+    .ropa-mujeres .mujer7 .img7 {
+      width: 19.4%;
+      height: 300px; }
+    .ropa-mujeres .mujer7 .texto7 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer7 .texto7 p {
+      padding-top: 10px;
+      font-size: 27px; }
+    .ropa-mujeres .mujer8 .img8 {
+      width: 39%;
+      height: 300px; }
+    .ropa-mujeres .mujer8 .texto8 h4 {
+      font-size: 40px; }
+    .ropa-mujeres .mujer8 .texto8 p {
+      padding-top: 10px;
+      font-size: 27px; } }
